@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Speaker | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Data Speaker</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Docs</a>
+      <a href="#">Login</a>
+      <a href="#">Signup</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <main>
+      <section>
+        <h2>Demo</h2>
+        <iframe
+          width="40%"
+          src="https://www.youtube.com/embed/il_t1WVLNxk"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <iframe
+          width="40%"
+          src="https://www.youtube.com/embed/il_t1WVLNxk"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section>
+        <h2>Docs</h2>
+        <embed
+          src="ComputerNetworks.pdf"
+          height="600"
+          width="40%"
+        />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <embed
+          src="ComputerNetworks.pdf"
+          height="600"
+          width="40%"
+        />
+      </section>
+      <section style="padding: 150px;">
+        <div style="padding-left:100px; float: left;">
+        <h2>Signup Form</h2>           
+        <form style="display: inline-block;">
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault01">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="validationDefault01"
+                placeholder="id@email.com"
+                value=""
+                name="email"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefaultUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2"
+                    >@</span
+                  >
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefaultUsername"
+                  placeholder="username"
+                  aria-describedby="inputGroupPrepend2"
+                  name="username"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault04">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="validationDefault04"
+                placeholder="Password"
+                name="password"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault05">Re-type Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="validationDefault05"
+                placeholder="Re-type Password"
+                name="retypepass"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                name="agreement"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+        </form>
+        </div>
+        <div style="padding-right:150px; float: right;">
+        <h2>Login Form</h2>           
+        <form style="display: inline-block;">
+          <div class="form-row">
+            <div class="col-md-20 mb-3">
+              <label for="validationDefault01">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="validationDefault01"
+                placeholder="id@email.com"
+                value=""
+                name="email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-20 mb-3">
+              <label for="validationDefault04">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="validationDefault04"
+                placeholder="Password"
+                name="password"
+                required
+              />
+            </div>
+          </div>
+          
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+        </div>
+      </section>
+      
+      <section>
+        <h2>About Us</h2>
+        <img src="sahil.jpg" alt="Sahil Ahuja" height="300" />
+        <a
+          href="http://linkedin.com/in/sahil-ahuja-503669180"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><h3>Sahil Ahuja</h3></a
+        >
+        <img src="sahil.jpg" alt="Sahil Ahuja" height="300" />
+        <a
+          href="http://linkedin.com/in/sahil-ahuja-503669180"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><h3>Sahil Ahuja</h3></a
+        >
+        <img src="sahil.jpg" alt="Sahil Ahuja" height="300" />
+        <a
+          href="http://linkedin.com/in/sahil-ahuja-503669180"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><h3>Sahil Ahuja</h3></a
+        >
+      </section>
+    </main>
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">&copy; 2020 | Data Speaker</a>
+    </footer>
+  </body>
+</html>
